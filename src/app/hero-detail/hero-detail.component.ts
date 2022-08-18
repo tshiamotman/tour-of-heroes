@@ -10,7 +10,7 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
-   hero?: Hero;
+   hero: Hero | undefined;
 
   constructor(
     private route: ActivatedRoute,
@@ -19,7 +19,7 @@ export class HeroDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
+    this.getHero();
   }
 
   getHero(): void {

@@ -6,47 +6,30 @@
 }
 
 .heroes li {
-    display: flex;
+    position: relative;
+    cursor: pointer;
 }
 
-.heroes button {
-    flex: 1;
-    cursor: pointer;
-    position: relative;
-    left: 0;
+.heroes a {
+    color: #333;
+    text-decoration: none;
     background-color: #EEE;
     margin: .5em;
-    padding: 0;
+    padding: .3em 0;
     border-radius: 4px;
-    display: flex;
-    align-items: stretch;
-    height: 1.8em;
+    display: block;
+    width: 100%;
+    height: 1.6em;
 }
 
-.heroes button:hover {
+.heroes a:hover {
     color: #2c3a41;
     background-color: #e6e6e6;
-    left: .1em;
 }
 
-.heroes button:active {
+.heroes a:active {
     background-color: #525252;
     color: #fafafa;
-}
-
-.heroes button.selected {
-    background-color: black;
-    color: white;
-}
-
-.heroes button.selected:hover {
-    background-color: #505050;
-    color: white;
-}
-
-.heroes button.selected:active {
-    background-color: black;
-    color: white;
 }
 
 .heroes .badge {
@@ -58,8 +41,4 @@
     line-height: 1em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
-}
-
-.heroes .name {
-    align-self: center;
 }
