@@ -12,15 +12,15 @@ export class InMemoryDataService implements InMemoryDbService {
 
   createDb() {
     const heroes: Hero[] = [
-      {id: 12, name: 'Dr. Nice'},
-      {id: 13, name: 'Bombasto'},
-      {id: 14, name: 'Celeritas'},
-      {id: 15, name: 'Magnaea'},
-      {id: 16, name: 'RubberMan'},
-      {id: 17, name: 'Dynama'},
-      {id: 18, name: 'Dr. IQ'},
-      {id: 19, name: 'Magma'},
-      {id: 20, name: 'Tornado'},
+      {id: 12, name: 'Dr. Nice', power: "Really Smart"},
+      {id: 13, name: 'Bombasto', power: "Super Hot"},
+      {id: 14, name: 'Celeritas', power: "Super Flexible"},
+      {id: 15, name: 'Magnaea', power: "Weather Changer"},
+      {id: 16, name: 'RubberMan', power: "Super Flexible"},
+      {id: 17, name: 'Dynama', power: "Really Smart"},
+      {id: 18, name: 'Dr. IQ', power: "Really Smart"},
+      {id: 19, name: 'Magma', power: "Super Hot"},
+      {id: 20, name: 'Tornado', power: "Weather Changers"},
   ];
   return {heroes};
   }
