@@ -22,7 +22,7 @@ li {
     list-style-type: none;
 }
 
-.search-result li a {
+.dropdown-menu li a {
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
@@ -35,12 +35,12 @@ li {
     color: black;
 }
 
-.search-result li a:hover {
+.dropdown-menu li a:hover {
     background-color: #435A60;
     color: white;
 }
 
-ul.search-result {
+ul.dropdown-menu {
     margin-top: 0;
     padding-left: 0;
 }

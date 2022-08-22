@@ -1,3 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "remixicon/fonts/remixicon.css";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,8 +43,4 @@ button:disabled {
     background-color: #eee;
     color: #aaa;
     cursor: auto;
-}
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
 }
